@@ -80,7 +80,7 @@ body {
 }
 
 .nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
+.nav-masthead .nav-link:focus {Subtitle Here
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
@@ -115,6 +115,7 @@ body {
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
+  width: 170px !important;
 }
 
 
@@ -159,7 +160,7 @@ body {
   .cover-container {
     width: 42rem;
   }
-  .modal-dialog {
+  .modal-content {
     width: 1100px;
     margin: 30px auto;
   }

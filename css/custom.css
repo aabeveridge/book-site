@@ -1,0 +1,87 @@
+#covertitle {
+  background-color: #303030;
+  border-radius: 25px;
+  box-shadow:0 0 3px #FFFFCC;
+  width: 800px;
+  margin-left: -100px;
+}
+
+/*#covertitle button {
+  margin-bottom: 25px;
+}*/
+
+#covertitle h1 {
+  padding-top: 20px;
+}
+
+#covertitle h4 {
+  padding-bottom: 25px;
+  color: #FFFFCC;
+}
+
+#covertitle b {
+  color: #FF0033;
+  font-size: 52px;
+  text-shadow: 0 0 2px black;
+}
+
+#covertitle span {
+  color: #FFFFCC;
+  font-size: 50px;
+  text-shadow: 0 0 4px black;
+}
+
+.navbar .fa {
+  font-size: 35px;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .fa:hover {
+  color: gray;
+}
+
+.navbar {
+  background-color: #303030;
+}
+
+#editors h4, #content h4 {
+  font-size: 26px;
+}
+
+#editors a, #content a {
+  text-decoration: none;
+}
+
+#navtoggle .fa {
+  margin-left: 20px;
+}
+
+#booktitle {
+  margin-top: -9px;
+  margin-bottom: -8px;
+}
+
+#navbarHeader {
+  margin-bottom: -20px;
+}
+
+#navbarHeader h4, #navbarHeader a, #navbarHeader p{
+    color: white;
+}
+
+.collapse {
+  background-color: #505050;
+}
+
+#booktitle b {
+  color: #FF0033;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+#booktitle span {
+  color: #FFFFCC;
+  font-weight: 400;
+  font-size: 26px;
+}

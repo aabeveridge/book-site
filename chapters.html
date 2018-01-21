@@ -11,6 +11,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
 
     <!-- Custom styles for this template -->
     <link href="css/album.css" rel="stylesheet">
@@ -19,83 +22,34 @@
   <body>
 
     <header>
-      <div class="collapse bg-dark" id="navbarHeader">
+      <div class="collapse" id="navbarHeader">
         <div class="container">
           <div class="row">
-            <div class="col-sm-8 py-4">
-              <h4 class="text-white">Editors:</h4>
-              <p class="text-muted">Laurie Gries, Aaron Beveridge, Blake Hallinan</p>
+            <div id="editors" class="col-sm-8 py-4">
+              <h4 class="text-white"><b>Editors:</b></h4>
+              <p class="text-white"><a class="text-white" href="legries.com">Laurie Gries</a>, <a class="text-white" href="aaronbeveridge.com">Aaron Beveridge</a>, <a class="text-white" href="#">Blake Hallinan</a></p>
             </div>
-            <div class="col-sm-4 py-4">
-              <h4 class="text-white">Other Content:</h4>
+            <div id="content" class="col-sm-4 py-4">
+              <h4 class="text-white"><b>Content:</b></h4>
               <ul class="list-unstyled">
-                <li><a href="index.html" class="text-white">Introduction</a></li>
+                <li><a href="chapters.html" class="text-white">Chapters</a></li>
                 <li><a href="#" class="text-white">Obamicon Archive</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark">
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand">Digital Visual Studies</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
+      <div class="navbar">
+        <div class="container-fullwidth">
+          <a id="navtoggle" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i></a>
+</div>
+          <div class="float-right">
+            <a id="booktitle" href="chapters.html" class="navbar-brand"><b>Doing</b> <span>Digital Visual Studies</span></a>
+          </div>
       </div>
     </header>
 
-    <main role="main">
 
-      <div class="album text-muted">
-        <div class="container">
-
-          <div class="row">
-            <div class="card" onclick="location.href='greene.html';" style="cursor: pointer;">
-              <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-            </div>
-            <div class="card" onclick="location.href='hallinan.html';" style="cursor: pointer;">
-              <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-            </div>
-            <div class="card">
-              <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-            </div>
-
-            <div class="card">
-              <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-            </div>
-            <div class="card">
-              <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-            </div>
-            <div class="card">
-              <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-            </div>
-
-            <div class="card">
-              <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-            </div>
-            <div class="card">
-              <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-            </div>
-            <div class="card">
-              <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </main>
 <!--
     <footer class="text-muted">
       <div class="container">
@@ -115,13 +69,6 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/holder.min.js"></script>
-    <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      });
-    </script>
-    <!-- <script src="js/custom.js"></script> -->
+    <script src="js/custom.js"></script>
   </body>
 </html>

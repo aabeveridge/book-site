@@ -1,3 +1,7 @@
+body {
+  background-color: #505050;
+}
+
 #coverlink {
   text-decoration: none;
 }
@@ -116,13 +120,31 @@
   font-size: 26px;
 }
 
-.modal-footer {
+.modal-header {
   font-size: 28px;
 }
 
-.modal-footer a:hover {
-  color: gray;
+.modal-header a:hover {
+  color: gray !important;
+}
+
+.modal-header a {
   text-decoration: none;
+}
+
+#textcontent {
+  font-size: 25px;
+  background-color: white;
+}
+
+#textcontent p {
+  margin-left: -60px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+#chapterthumbs .row {
+  margin-top: 40px;
 }
 
 @media (min-width: 991px) {

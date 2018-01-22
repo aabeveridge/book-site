@@ -1,7 +1,37 @@
+#coverlink {
+  text-decoration: none;
+}
+
+#coverlink:hover, #coverlink:active, #coverlink:focus {
+  outline: 0;
+}
+
+#covertitle:hover {
+  box-shadow:0 0 15px #FFFFCC;
+}
+
+#covertitle:hover > h1 span {
+  font-size: 51px;
+  text-shadow: 0 0 20px black;
+}
+
+#covertitle:hover > h1 b {
+  font-size: 53px;
+  text-shadow: 0 0 5px black;
+}
+
+
+#covertitle:hover > h4 {
+  font-size: 24px;
+  text-shadow: 0 0 10px black;
+}
+
+
+
 #covertitle {
   background-color: #303030;
   border-radius: 25px;
-  box-shadow:0 0 3px #FFFFCC;
+  box-shadow:0 0 10px #FFFFCC;
   width: 800px;
   margin-left: -100px;
 }
@@ -22,7 +52,7 @@
 #covertitle b {
   color: #FF0033;
   font-size: 52px;
-  text-shadow: 0 0 2px black;
+  text-shadow: 0 0 1px black;
 }
 
 #covertitle span {
@@ -84,4 +114,21 @@
   color: #FFFFCC;
   font-weight: 400;
   font-size: 26px;
+}
+
+.modal-footer {
+  font-size: 28px;
+}
+
+.modal-footer a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+@media (min-width: 991px) {
+
+  .modal-dialog {
+    right: 18%;
+  }
+
 }

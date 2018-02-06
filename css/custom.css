@@ -104,6 +104,23 @@ body {
     color: white;
 }
 
+#chapnav .nav-item {
+  margin-right: 30px;
+}
+
+#chapnav .active {
+  background-color: #DCDCDC;
+}
+
+#chapnav {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: -65px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+
+}
+
 .collapse {
   background-color: #505050;
 }
@@ -134,7 +151,7 @@ body {
 
 #textcontent {
   font-size: 25px;
-  background-color: white;
+  background-color: #F0F0F0;
 }
 
 #textcontent p {

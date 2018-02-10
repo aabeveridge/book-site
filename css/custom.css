@@ -121,8 +121,41 @@ body {
 
 }
 
+#chapterthumbs .card{
+  width: 16rem !important;
+  margin-right: 20px;
+  background-color: #D0D0D0;
+}
+
+#chapterthumbs h5 {
+  margin-top: -20px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: -18px;
+  margin-right: -30px;
+}
+
+#chapterthumbs .card-text {
+  font-size: 18px;
+  margin-left: -16px;
+  margin-right: -30px;
+}
+
 .collapse {
   background-color: #505050;
+}
+
+.btn-danger {
+  color: #FFFFCC;
+  background-color: #606060;
+  border: 0 none;
+  font-weight: bold;
+  margin-left: -16px;
+}
+
+.btn-danger:hover {
+  color: #FFFFCC;
+  background-color: #707070;
 }
 
 #booktitle b {

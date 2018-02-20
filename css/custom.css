@@ -216,18 +216,18 @@ body {
 }
 
 #myModal {
-  margin-left: 460px;
+  /* margin-left: 460px; */
   font-size: 25px;
 }
 
 #responseauthors {
-  margin-left: 460px;
+  /* margin-left: 460px; */
 }
 
 /* #responseauthors .modal-content {
   background-color: #D0D0D0 !important;
 } */
-/* 
+/*
 #responseauthors .modal-header {
   border: none;
 } */

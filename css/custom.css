@@ -191,6 +191,18 @@ body {
   background-color: #707070;
 }
 
+.btn-default {
+  color: #FFFFCC;
+  background-color: #A0A0A0;
+  margin-left: -16px;
+}
+
+.btn-default:hover {
+  cursor: default !important;
+  color: #FFFFCC;
+  background-color: #A0A0A0;
+}
+
 #booktitle b {
   color: #FF0033;
   font-weight: 900;
@@ -212,13 +224,13 @@ body {
   margin-left: 460px;
 }
 
-#responseauthors .modal-content {
+/* #responseauthors .modal-content {
   background-color: #D0D0D0 !important;
-}
-
+} */
+/* 
 #responseauthors .modal-header {
   border: none;
-}
+} */
 
 #responseauthors li {
   font-size: 25px;

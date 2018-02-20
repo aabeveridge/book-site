@@ -203,16 +203,31 @@ body {
   font-size: 26px;
 }
 
-.modal-header {
-  font-size: 28px;
+#myModal {
+  margin-left: 460px;
+  font-size: 25px;
 }
 
-.modal-header a:hover {
-  color: gray !important;
+#responseauthors {
+  margin-left: 460px;
 }
 
-.modal-header a {
-  text-decoration: none;
+#responseauthors .modal-content {
+  background-color: #D0D0D0 !important;
+}
+
+#responseauthors .modal-header {
+  border: none;
+}
+
+#responseauthors li {
+  font-size: 25px;
+}
+
+#responseauthorTitle {
+  font-size: 30px !important;
+  margin-left: 10px !important;
+  margin-top: -5px !important;
 }
 
 #textcontent {

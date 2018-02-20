@@ -50,9 +50,58 @@
     <div class="container" id="chapterthumbs">
       <div class="col-lg-12">
 
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title"><b>Dear Reviewers:</b></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <p>While we are presenting a full draft of the book's website for review, only the following chapters are available at this time:</p>
+                <ul>
+                  <li>Introduction</li>
+                  <li>Re-appropriating Hope</li>
+                  <li>Geolocating Hope</li>
+                  <li>Digging Up Obama Hope</li>
+                </ul>
+                <p>Also, please note that this website has been tested for the following browsers only: Firefox. Prior to going live, the website will be cross tested on all major browsers and operating systems. Also, not all mobile-first functionality has been tested at this time, but the site will be mobile first when completed.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
         <div id="jumbolist">
           <div class="offset-md-4">
-            <a href="#" class="btn btn-danger">View Chapter Response Authors</a>
+            <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#responseauthors">View Chapter Response Authors</a>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal" id="responseauthors" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="responseauthorTitle">Chapter Response Authors:</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li><b>Sarah Arroyo</b> responds to "From Hope to Drumpf"</li>
+                  <li><b>Bill Hardt-Davidson</b> responds to "Where is Obama Hope Now?"</li>
+                  <li><b>Nathaniel Rivers</b> responds to "Geolocating Obama Hope"</li>
+                  <li><b>Doug Eyman</b> responds to "Digging Up Obama Hope"</li>
+                  <li><b>KJ Rawson</b> responds to "Pinning Hope"</li>
+                  <li><b>Sean Morey</b> responds to "Re-appropriating Hope"</li>
+                  <li><b>Sid Dobrin</b> responds to "Making Hope"</li>
+                  <li><b>Casey Boyle</b> responds to "Hope Corrupted"</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
 

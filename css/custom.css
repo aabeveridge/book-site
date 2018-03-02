@@ -31,6 +31,10 @@ footer p {
   margin-bottom: .25rem;
 }
 
+img {
+  margin-left: -45px;
+}
+
 #coverlink {
   text-decoration: none;
 }

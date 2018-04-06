@@ -212,12 +212,13 @@ footer p {
 }
 
 .big-img {
-  width: 600px;
-  margin-left: 160px;
+  width: 380px;
+  margin-left: 270px;
 }
 
 .small-img {
-
+  width: 600px;
+  margin-left: 160px;
 }
 
 .collapse {

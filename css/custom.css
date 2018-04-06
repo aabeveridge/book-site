@@ -196,7 +196,7 @@ footer p {
   margin-left: -17px;
   color: #383838;
   margin-top: 13px;
-  margin-right: -10px;
+  margin-right: -16px;
   /* margin-bottom: -25px; */
 }
 
@@ -209,6 +209,10 @@ footer p {
 
 #chapterthumbs .subtitle-single {
   margin-top: 38px;
+}
+
+.workscited p {
+  margin-bottom: 35px;
 }
 
 .big-img {

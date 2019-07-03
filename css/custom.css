@@ -22,6 +22,10 @@ body {
   font-size: 85%;
 }
 
+.card-body {
+  margin-bottom: -20px;
+}
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -249,14 +253,14 @@ footer p {
   padding-left: 89px;
   padding-right: 87px;
   margin-left: -20px;
-  margin-bottom: 3px;
+  margin-bottom: 0px;
 }
 
 .chapter-btn {
   padding-left: 104px;
   padding-right: 102px;
   margin-left: -20px;
-  margin-bottom: 3px;
+  margin-bottom: 0px;
 }
 
 .btn-danger:hover {

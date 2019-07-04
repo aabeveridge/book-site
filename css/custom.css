@@ -1,9 +1,18 @@
 body {
   background-color: #505050;
+  margin-top: 50px;
 }
 
 .navbar {
   margin-bottom: 0;
+}
+
+.jumbotron {
+  margin-left: -14px;
+  margin-right: 47px;
+  background-color: #D0D0D0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px 5px 5px 5px;
 }
 
 .card {
@@ -172,6 +181,10 @@ footer p {
 
 #jumbolist a {
   margin-left: 34px;
+}
+
+#chapterthumbs {
+  margin-top: 75px;
 }
 
 #chapterthumbs .card{

@@ -306,14 +306,6 @@ footer p {
   font-weight: bold;
 }
 
-.response-btn {
-  margin-left: -16px;
-  padding-left: 64px;
-  padding-right: 63px;
-  margin-left: -20px;
-  margin-bottom: -27px;
-}
-
 .btn-default:hover {
   cursor: default !important;
   color: #FFFFCC;
@@ -340,14 +332,6 @@ footer p {
 #responseauthors {
   /* margin-left: 460px; */
 }
-
-/* #responseauthors .modal-content {
-  background-color: #D0D0D0 !important;
-} */
-/*
-#responseauthors .modal-header {
-  border: none;
-} */
 
 #responseauthors li {
   font-size: 25px;

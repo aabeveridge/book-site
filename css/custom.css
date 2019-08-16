@@ -38,7 +38,7 @@ body {
 }
 
 .card-body {
-  margin-bottom: -20px;
+  margin-bottom: 0px;
 }
 
 footer {
@@ -310,6 +310,28 @@ footer p {
   cursor: default !important;
   color: #FFFFCC;
   background-color: #A0A0A0;
+}
+
+.response-btn {
+  margin-right: -16px;
+  padding-left: 59px;
+  padding-right: 66px;
+  margin-left: -20px;
+  margin-bottom: -27px;
+}
+
+.response-btn:hover {
+  cursor: default !important;
+  color: #FFFFCC;
+  background-color: #A0A0A0;
+}
+
+.archive-btn {
+  margin-right: 0px;
+  padding-left: 63px;
+  padding-right: 69px;
+  margin-left: -20px;
+  margin-bottom: -27px;
 }
 
 #booktitle b {

@@ -17,7 +17,7 @@ body {
   padding-top: 20px;
   padding-left: 18px;
   padding-right: 5px;
-  margin-bottom: -7px;
+  margin-bottom: 30px;
 }
 
 .card {
@@ -290,7 +290,7 @@ footer p {
 
 .chapter-btn {
   padding-left: 104px;
-  padding-right: 102px;
+  padding-right: 103px;
   margin-left: -20px;
   margin-bottom: 0px;
 }
@@ -313,9 +313,9 @@ footer p {
 }
 
 .response-btn {
-  margin-right: -16px;
-  padding-left: 59px;
-  padding-right: 66px;
+  margin-right: 0px;
+  padding-left: 63px;
+  padding-right: 63px;
   margin-left: -20px;
   margin-bottom: -27px;
 }
@@ -328,7 +328,7 @@ footer p {
 
 .archive-btn {
   margin-right: 0px;
-  padding-left: 63px;
+  padding-left: 64px;
   padding-right: 69px;
   margin-left: -20px;
   margin-bottom: -27px;

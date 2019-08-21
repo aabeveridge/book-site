@@ -41,6 +41,10 @@ body {
   margin-bottom: 0px;
 }
 
+.cloud-visuals {
+  margin-left: -60px;
+}
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;

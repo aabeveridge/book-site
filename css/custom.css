@@ -45,6 +45,10 @@ body {
   margin-left: -60px;
 }
 
+.table {
+  margin-left: -60px;
+}
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -250,6 +254,15 @@ footer p {
 .small-img {
   width: 600px;
   margin-left: 160px;
+}
+
+.big-figure {
+  margin-left: -60px;
+}
+
+hr {
+  margin-left: -60px;
+  margin-right: 60px;
 }
 
 .collapse {

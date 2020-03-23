@@ -351,6 +351,10 @@ hr {
   margin-bottom: -27px;
 }
 
+#backtotop {
+  margin-left: 20px;
+}
+
 #booktitle b {
   color: #FF0033;
   font-weight: 900;

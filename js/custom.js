@@ -9,3 +9,7 @@ $('#responseauthors').on('shown.bs.modal', function () {
 $(window).on('load',function(){
         $('#myModal').modal('show');
     });
+
+$("#backtotop").on("click", function() {
+    $("body").scrollTop(0);
+  });

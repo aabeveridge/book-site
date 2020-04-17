@@ -13,3 +13,7 @@ $(window).on('load',function(){
 $("#backtotop").on("click", function() {
     $("body").scrollTop(0);
   });
+
+  $('#bioModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })

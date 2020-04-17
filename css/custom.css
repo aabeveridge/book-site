@@ -305,6 +305,16 @@ hr {
   margin-bottom: 0px;
 }
 
+.bio-btn {
+  padding-left: 106px;
+  padding-right: 107px;
+  /* margin-left: 0px; */
+  /* margin-bottom: -40px; */
+  margin-top: 10px;
+  margin-left: -6px;
+  margin-bottom: 0px;
+}
+
 .chapter-btn {
   padding-left: 104px;
   padding-right: 103px;

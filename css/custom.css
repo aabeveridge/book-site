@@ -354,11 +354,15 @@ hr {
 }
 
 .archive-btn {
-  margin-right: 0px;
-  padding-left: 64px;
-  padding-right: 69px;
+  margin-top: 40px;
+  padding-left: 104px;
+  padding-right: 103px;
   margin-left: -20px;
-  margin-bottom: -27px;
+  margin-bottom: 0px;
+}
+
+.archive-nav {
+  margin-left: 100px;
 }
 
 #backtotop {

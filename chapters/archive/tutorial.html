@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<div id="backtotop"></div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../../favicon.ico">
+
+    <title>DDVS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link href="../../css/album.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/custom.css">
+  </head>
+  <body>
+    <header>
+      <!-- <div class="collapse" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div id="editors" class="col-sm-8 py-4">
+              <h4 class="text-white"><b>Editors:</b></h4>
+              <p class="text-white"><a class="text-white" href="legries.com">Laurie Gries</a>, <a class="text-white" href="aaronbeveridge.com">Aaron Beveridge</a>, <a class="text-white" href="#">Blake Hallinan</a></p>
+            </div>
+            <div id="content" class="col-sm-4 py-4">
+              <h4 class="text-white"><b>Content:</b></h4>
+              <ul class="list-unstyled">
+                <li><a href="../chapters.html" class="text-white">Chapters</a></li>
+                <li><a href="#" class="text-white">Obamicon Archive</a></li>
+                <li><a href="../index.html" class="text-white">Cover</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="navbar fixed-top">
+        <div class="container-fullwidth">
+          <!-- <a id="navtoggle" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i></a> -->
+        </div>
+        <div class="float-right">
+          <a id="booktitle" href="../../chapters.html" class="navbar-brand"><b>Doing</b> <span>Digital Visual Studies</span></a>
+        </div>
+      </div>
+    </header>
+    <div class="container" id="textcontent">
+      <div class="row">
+        <div class="col-md-11 offset-md-1">
+
+          <div id="chapnav">
+
+            <div class="container">
+
+              <ul class="nav">
+                <li class="nav-item">
+                  <a href="introduction.html" class="nav-link">Introduction</a>
+                </li>
+                <li class="nav-item archive-nav">
+                  <a href="data.html" class="nav-link">Data</a>
+                </li>
+                <li class="nav-item archive-nav">
+                  <a href="tutorial.html" class="nav-link active">Tutorial</a>
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+          <p class="chaptertitle"><b>Iconographic Tracking:</b></p>
+          <p class="chaptersubtitle"><b>Data Coding and Vizualization Tutorial</b></p>
+          <p><strong>By Kristina Bowers</strong></p>
+          <p>The first step to deploying iconographic tracking research methods through the lense of circulation studies is to select an image, icon, meme, or other visual artifact that has circulated widely or “gone viral”. Once selected, the scope of research can begin to take shape using guiding questions such as: How far has this icon circulated around the web? What #hashtags or comments are being used in conjunction with this icon? What rhetorical function(s) does this image precipitate/enact?</p>
+          <p>These are the types of questions that have led rhetorician, scholar and University of Colorado Boulder professor Dr. Laurie Gries to create "iconographic tracking". Iconographic tracking (IT) is a qualitative research method that tracks how viral images transform on and off the Internet in addition to tracing the real, social consequences these images may engender along the way. This tutorial will explain how to code metadata as part of the IT method, create unique visualizations using these codes, and expand on Gries' methods. In her webtext, “Mapping Obama Hope”, Gries explains how she used software like Google Fusion Tables to “...easily upload, organize, query, and share data sets” and “...categorize, manipulate, and export this data set for specific and custom digital visualizations” (citation). Due to the discontinuation of the Google Fusion Tables (software? Program? Internet tool?), I present an alternative research workflow that combines the functionality of Google Sheets and the data analysis and visualization capabilities of Atlas.ti software. This tutorial will show users how to code and visualize metadata generated from raw data sets. Metadata can include geographic location, media type, time circulated, etc. These characteristics can be visualized together or separately to understand how images are moving and transforming rhetorically in time and space.</p>
+          <p>In this tutorial, I will be using a sample data set of the "Distracted Boyfriend" meme to demonstrate how to code for genre and create visualizations of the resulting patterns and trends. This meme originated from a stock photo taken in 2015 in Gerona, Spain by photographer Antonio Guilliam. Originally titled, “Disloyal Man with His Girlfriend Looking at Another Girl”, this object-labelling meme typically communicates a value judgement, or preference, of one thing/person/idea v. another thing/person/idea.** This meme is useful to this tutorial due to its popularity, virality, and the sheer number of remixes that can be found across the Internet.</p>
+          <p> chose Atlas.ti over Zotero to tag and organize images due to the ability to code directly onto images, ease of use, and a more visual interface. I start with a review of the methods and literature surrounding IT, present a concise written tutorial with 2 instructional videos, and end with a conclusion and additional resources reiterating the importance of expanding this methodology.</p>
+
+          <p><strong>Methods and Literature Review</strong></p>
+          <p>The phrase “iconographic tracking” (IT) was coined by Laurie Gries to describe a way to trace and analyze the "circulation, transformation, and consequentiality of images across genres, mediums, and contexts" (Gries, "Iconographic tracking: A Digital" 2013 pg. 332). This is a methodology built on theories from the areas of circulation studies, visual rhetoric, new media, and new materialism. (Gries, "Iconographic tracking: A Digital" 2013 pg. 332-333). The research questions and concerns driving the creation and specification of this method include virality in image distribution and circulation, intellectual property law, and the ways in which humans and non-humans interact with images in real, consequential ways (Gries 2013 pg. 335). In both her journal article “Iconographic Tracking: A Digital Research Method for Visual Rhetoric and Circulation Studies” and chapter entitled “Iconographic Tracking” from her book Still Life with Rhetoric: A New Materialist Approach for Visual Rhetorics, Gries walks through the main research steps of this methodology, emphasizing the ability of new media images to create and, in Bruno Latour’s words, “reassemble the social” (“Iconographic Tracking: A Digital” 333). Gries is concerned with the futurity of images, how they circulate and influence beyond the creator’s wildest imaginings of consequence (“Iconographic Tracking: A Digital” 337). Gries’ method is recursive, meandering, and open-ended which accurately reflects the unpredictable, viral spread and remix of images in today’s digital environment.</p>
+          <p>Gries sees her work as filling in a pragmatic hole in the “how-to” of tracking such images (“Iconographic Tracking” 109).</p>
+          <blockquote>
+          <p>“...iconographic tracking is specifically designed to elucidate how images become rhetorical and iconic in the sense that once actualized in multiple versions, they become not only vital actants capable of catalyzing change and producing space (and time) but also readily recognized and culturally and/or politically significant to a wide cultural group” (Gries, "Iconographic Tracking" 110).</p>
+          </blockquote>
+          <p>Notable examples of research using iconographic tracking includes Gries’ case study on the “Obama Hope” image created by Shepard Fairey from a photograph taken by Mannie Garcia (“Iconographic Tracking: A Digital” 332). Gries studied how this image transformed in genre, rhetorical consequence, media, location across the globe, and many other categories and subcategories that revealed just how influential this image became to so many people for many different reasons (“Iconographic Tracking: A Digital” 332). Other prominent researchers such as Natalia Mielczarek have deployed IT to study viral Internet images such as the “Pepper-Spraying Cop” and a photograph of Aylan Kurdi, a 3 year old whose body washed up on a Turkish beach after dying in an overseas journey (67; 1). In her case study of the “Pepper-Spraying Cop,” Milezerack aims to continue to uncover images’ - specifically memes’ - signifying power (68). Mielzerack investigates the ways in which this meme was weaponized and caused consequences in the real world while contributing to collective memory at different times, and in different contexts (69). Along with protests and police militarization, Mielzerack also studies similarly serious cultural issues in her analysis of the Kurdi memes (2). Along with political protest and catalyst for action, Mielzerack characterizes the “dead Syrian refugee boy” memes as a form of grieving (11-13).</p>
+          <p>In terms of the effect of images on human subjects, Nicole Smith Dahmen employs qualitative research methods to measure and study how iconic images are recognized, acknowledged, and received emotionally by people (453). Like Mielzerack, Dahmen also touches on collective memory and considers the consequences and value of this memory (457). Dahmen looks at how iconic images shape national identity, empathy, and the overall importance of certain iconic images (462-464). Dahmen notes that while these findings are important, “Asking someone if they think an image would lead to action is not the same thing as actually determining if an image led to action” (470). This act of determining an image’s influence on, and part in, public action is part of what Gries, and others, are trying to accomplish with IT. For a more traditional lens of visual rhetorical analysis, look to Finnegan’s “Studying Visual Modes of Public Address” for an analysis of how popular images affected public views and identifications. For a more in depth look at rhetorical existence in our daily lives plus a focus on OOO, refer to Barnett’s book, *Rhetoric, Through Everyday Things*. Multiple contributors trace the active power of things and move away from human-centered rhetorical study and thought.</p>
+          <p><strong>Tutorial</strong></p>
+          <p>This tutorial will show you how to (1) organize your image data in Google Sheets, (2) generate metadata about these images, (3) upload your images into Atlas.ti, tag/code the images with metadata, and (4) create visualizations of your image’s transformations. The use of Google Sheets to organize data is adapted from Gries' example exercise with the image of Malala Yousafzai. I've taken advantage of the Wayback Machine - an online archival tool - to archive both the webpage and the image jpeg url. This process is necessary in order to archive data in the event of a loss or corruption of original data. It is also beneficial to have this data available for future use by other researchers and scholars.</p>
+          <p>For this example, I will be coding/tagging specifically for the genre of each of my images. I have collected a small set of images depicting, or related to, the "Distracted Boyfriend Meme". For further reading on the origin of this meme see (https://www.wired.com/story/distracted-boyfriend-meme-photographer-interview/). Below, you can view the images in my data set including the original stock photo, resulting iterations/remixes of the meme, as well as a few examples of recreations using human actors. If you hover over the image you will see a descriptive title that is useful for human readers. </p>
+          <p>The DB meme, like many other object-labelling memes, is uniquely suited to the IT method because it can be considered a "single multiple image" - as Gries calls the iterations of the Obama Hope image she studied (Iconographic Tracking 108). The DB meme is different from the Obama Hope image in that the DB meme generally keeps the same background/original image and adds text/pictures to the characters while “Obamacons” tend to use the same (? composition/color scheme/what is the word….) but the character/person (focus/main) changes often. </p>
+          
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!--
+        <footer class="text-muted">
+          <div class="container">
+            <p class="float-right">
+              <a href="#">Back to top</a>
+            </p>
+            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+            <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+          </div>
+        </footer> -->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/holder.min.js"></script>
+        <script src="../js/custom.js"></script>
+      </body>
+    </html>

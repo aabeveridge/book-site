@@ -256,6 +256,11 @@ footer p {
   margin-left: 160px;
 }
 
+lg-img-spacing {
+  margin-left: -60px;
+  margin-right: -60px;
+}
+
 .big-figure {
   margin-left: -60px;
 }

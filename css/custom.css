@@ -327,6 +327,14 @@ hr {
   margin-bottom: 0px;
 }
 
+.archive-btn {
+  margin-top: 39px;
+  padding-left: 104px;
+  padding-right: 103px;
+  margin-left: -20px;
+  margin-bottom: 0px;
+}
+
 .btn-danger:hover {
   color: #FFFFCC;
   background-color: #707070;
@@ -356,14 +364,6 @@ hr {
   cursor: default !important;
   color: #FFFFCC;
   background-color: #A0A0A0;
-}
-
-.archive-btn {
-  margin-top: 40px;
-  padding-left: 104px;
-  padding-right: 103px;
-  margin-left: -20px;
-  margin-bottom: 0px;
 }
 
 .archive-nav {

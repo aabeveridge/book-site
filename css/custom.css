@@ -256,6 +256,11 @@ footer p {
   margin-left: 160px;
 }
 
+.embed-fig {
+  margin-left: 80px;
+  margin-bottom: -90px;
+}
+
 lg-img-spacing {
   margin-left: -60px;
   margin-right: -60px;

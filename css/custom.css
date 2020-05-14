@@ -58,6 +58,10 @@ footer p {
   margin-bottom: .25rem;
 }
 
+ul {
+  margin-left: -50px;
+}
+
 #coverlink {
   text-decoration: none;
 }
@@ -333,7 +337,7 @@ hr {
 }
 
 .archive-btn {
-  margin-top: 39px;
+  /* margin-top: 39px; */
   padding-left: 104px;
   padding-right: 103px;
   margin-left: -20px;

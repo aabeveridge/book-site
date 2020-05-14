@@ -58,8 +58,8 @@ footer p {
   margin-bottom: .25rem;
 }
 
-ul {
-  margin-left: -50px;
+.tutorial-lists {
+  margin-left: -70px;
 }
 
 #coverlink {
@@ -258,6 +258,10 @@ ul {
 .small-img {
   width: 600px;
   margin-left: 160px;
+}
+
+.max-img {
+  margin-left: -50px;
 }
 
 .embed-fig {

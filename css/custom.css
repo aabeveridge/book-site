@@ -350,6 +350,13 @@ hr {
   margin-bottom: 0px;
 }
 
+.section-btn {
+  padding-left: 104px;
+  padding-right: 103px;
+  margin-left: -20px;
+  margin-bottom: 0px;
+}
+
 .btn-danger:hover {
   color: #FFFFCC;
   background-color: #707070;
@@ -553,6 +560,26 @@ blockquote {
     width: 550px;
     margin-left: 70px;
     margin-top: 150px;
+  }
+  #textcontent p {
+    margin-left: 20px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  #chapnav {
+    display: none;
+  }
+  .big-img {
+    margin-left: 0;
+  }
+  .small-img {
+    margin-left: 0;
+  }
+  .max-img {
+    margin-left: 0;
   }
 }
 

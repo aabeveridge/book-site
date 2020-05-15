@@ -564,6 +564,27 @@ blockquote {
   .display-4 {
     font-size: 35px;
   }
+  .intro-btn {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .chapter-btn {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .archive-btn {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .bio-btn {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .afterward-btn {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   /* #covertitle b {
       font-size: 28px;
   }

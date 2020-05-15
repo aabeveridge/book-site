@@ -559,7 +559,7 @@ blockquote {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 576px) {
   .jumbotron {
-    width: 78%;
+    width: 88%;
   }
   .display-4 {
     font-size: 35px;

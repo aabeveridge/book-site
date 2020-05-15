@@ -557,14 +557,14 @@ blockquote {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
   .jumbotron {
     width: 78%;
   }
   .display-4 {
     font-size: 35px;
   }
-  #covertitle b {
+  /* #covertitle b {
       font-size: 28px;
   }
   #covertitle span {
@@ -590,25 +590,12 @@ blockquote {
   }
   #covertitle {
     width: 400px;
-    /* margin-left: 70px; */
+    margin-left: 10px;
     height: 110px;
-    margin-top: 100px;
+    margin-top: 300px;
     padding-top: -20px !important;
   }
   #covertitle h1 {
     padding-top: 0px;
-  }
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 500px) {
-  #covertitle {
-    width: 400px;
-    /* margin-left: 70px; */
-    height: 110px;
-    margin-top: 100px;
-    padding-top: -20px !important;
-  }
-  .jumbotron {
-    width: 100%;
-  }
+  } */
 }

@@ -63,6 +63,11 @@ footer p {
   margin-right: 25px;
 }
 
+.lead-names {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 #coverlink {
   text-decoration: none;
 }
@@ -464,10 +469,46 @@ blockquote {
   margin-bottom: 20px;
 }
 
-@media (min-width: 991px) {
+/* ###################### */
+/*  Mobile/Tablet Sizing  */
+/* ###################### */
 
-  .modal-dialog {
-    right: 18%;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .jumbotron {
+    width: 77%;
   }
+  .display-4 {
+    font-size: 40px;
+  }
+}
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .jumbotron {
+    width: 51%;
+  }
+  .display-4 {
+    font-size: 38px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .jumbotron {
+    width: 70%;
+  }
+  .display-4 {
+    font-size: 38px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    width: 78%;
+  }
+  .display-4 {
+    font-size: 35px;
+  }
 }

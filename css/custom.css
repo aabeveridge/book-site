@@ -573,10 +573,22 @@ blockquote {
     margin-bottom: 20px;
   }
   .jumbotron {
-    width: 335px !important;
+    width: 325px;
   }
-  .card {
-    width: 335px !important;
+  .intro-btn {
+    padding-right: 73px;
+  }
+  .chapter-btn {
+    padding-right: 92px;
+  }
+  .archive-btn {
+    padding-right: 93px;
+  }
+  .afterward-btn {
+    padding-right: 88px;
+  }
+  .bio-btn {
+    padding-right: 104px;
   }
   .display-4 {
     font-size: 38px;
@@ -624,23 +636,16 @@ blockquote {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 576px) {
-  /* .jumbotron {
-    width: 88%;
-  } */
   .display-4 {
     font-size: 35px;
   }
-
-  .intro-btn {
-    margin-left: -8.5px;
+  .mobile-width {
+    width:346px;
   }
-  .chapter-btn
-  .archive-btn
-  .bio-btn
-  .afterward-btn
-
-
+  /* .card {
+    margin-left: 20px
+  } */
   p {
-    font-size: 21px;
+    font-size: 19px;
   }
 }

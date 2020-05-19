@@ -575,7 +575,7 @@ blockquote {
     margin-bottom: 20px;
   }
   .jumbotron {
-    width: 335px;
+    width: 335px !important;
   }
   .display-4 {
     font-size: 38px;
@@ -629,26 +629,16 @@ blockquote {
   .display-4 {
     font-size: 35px;
   }
+
   .intro-btn {
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: -8.5px;
   }
-  .chapter-btn {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .archive-btn {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .bio-btn {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .afterward-btn {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+  .chapter-btn
+  .archive-btn
+  .bio-btn
+  .afterward-btn
+
+
   p {
     font-size: 21px;
   }

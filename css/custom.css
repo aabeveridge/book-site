@@ -177,6 +177,12 @@ footer p {
   background-color: #DCDCDC;
 }
 
+.mobile-active {
+  pointer-events: none;
+  cursor: default;
+  color: gray
+}
+
 #chapnav {
   margin-top: 30px;
   margin-bottom: 50px;
@@ -353,8 +359,13 @@ hr {
 .section-btn {
   padding-left: 104px;
   padding-right: 103px;
-  margin-left: -20px;
+  margin-left: 20px;
   margin-bottom: 0px;
+}
+
+.section-btn:active {
+  color: #FFFFCC !important;
+  background-color: #606060 !important;
 }
 
 .btn-danger:hover {
@@ -477,6 +488,14 @@ blockquote {
 /* ###################### */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {
+  .img-hide {
+    display: none;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and down) */
 @media only screen and (max-width: 1200px) {
   .jumbotron {
     width: 77%;
@@ -484,9 +503,12 @@ blockquote {
   .display-4 {
     font-size: 40px;
   }
+  .embed-hide {
+    display: none;
+  }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 992px and down) */
 @media only screen and (max-width: 992px) {
   .jumbotron {
     width: 51%;
@@ -522,10 +544,36 @@ blockquote {
   #covertitle:hover > h4 {
     font-size: 21px;
   }
+  .big-img {
+    margin-left: 0;
+  }
+  .small-img {
+    margin-left: 0;
+  }
+  .max-img {
+    margin-left: 0;
+  }
 }
 
+
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) {
+  .mobile-nav {
+    display: none;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
+  #chapnav {
+    display: none;
+  }
+
+  .embed-fig {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
   .jumbotron {
     width: 70%;
   }
@@ -568,18 +616,8 @@ blockquote {
   p {
     font-size: 25px;
   }
-
-  #chapnav {
-    display: none;
-  }
-  .big-img {
-    margin-left: 0;
-  }
-  .small-img {
-    margin-left: 0;
-  }
-  .max-img {
-    margin-left: 0;
+  .btn-secondary {
+  margin-left: 30px;
   }
 }
 
@@ -611,39 +649,7 @@ blockquote {
     padding-left: 10px;
     padding-right: 10px;
   }
-
-  /* #covertitle b {
-      font-size: 28px;
+  p {
+    font-size: 21px;
   }
-  #covertitle span {
-    font-size: 27px;
-  }
-  #covertitle h2 {
-    font-size: 16px;
-  }
-  #covertitle h4 {
-    font-size: 12px;
-  }
-  #covertitle:hover > h1 span {
-    font-size: 28px;
-  }
-  #covertitle:hover > h1 b {
-    font-size: 29px;
-  }
-  #covertitle:hover > h2 {
-    font-size: 17px;
-  }
-  #covertitle:hover > h4 {
-    font-size: 13px;
-  }
-  #covertitle {
-    width: 400px;
-    margin-left: 10px;
-    height: 110px;
-    margin-top: 300px;
-    padding-top: -20px !important;
-  }
-  #covertitle h1 {
-    padding-top: 0px;
-  } */
 }

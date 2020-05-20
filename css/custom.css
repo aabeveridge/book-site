@@ -584,15 +584,8 @@ blockquote {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 769px) {
-  .table {
-    font-size: 12px;
-    margin-left: 20px;
-  }
   .mobile-nav {
     display: none;
-  }
-  .tutorial-lists {
-    font-size: 18px;
   }
 }
 /* Medium devices (landscape tablets, 768px and down) */

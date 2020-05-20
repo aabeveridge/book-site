@@ -3,6 +3,14 @@ body {
   margin-top: 50px;
 }
 
+/* b {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 900;
+} */
+
 .navbar {
   margin-bottom: 0;
 }
@@ -451,6 +459,11 @@ hr {
 
 #chapterthumbs .row {
   margin-top: 40px;
+}
+
+.dropdown-menu {
+  font-size: 25px;
+  background-color: #E0E0E0;
 }
 
 .chaptertitle {
